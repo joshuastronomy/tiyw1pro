@@ -1,0 +1,166 @@
+body  {
+  background-color: #F2F1E8;
+  margin: 0 auto;
+}
+
+p  {
+  font-weight: 400;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 55px;
+  text-align: center;
+  border-bottom: solid thin lightgrey;
+  z-index: 999;
+}
+
+#logo {
+  background-image: url(/Users/joshuastronomy/Documents/TIY/week1/week-one-project/images/optimized/bent-creek-logo.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-color: #FFFFFF;
+  float: left;
+  margin-left: 5px;
+  margin-top: 6px;
+  height: 40px;
+  width: 40px;
+}
+
+.nav-items {
+  width: auto;
+}
+
+.nav-items ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-items li {
+  padding: 0 20px 0 20px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.nav-items a {
+  color: #2B2F26;
+  transition: .5s;
+}
+
+.nav-items a:hover {
+  color: #CD5D67;
+}
+
+.nav-items a:active {
+  color: #968772;
+}
+
+header  {
+  padding: 0 0 40px 0;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 4em;
+}
+
+main {
+padding: 100px 300px 100px 300px;
+margin: 0 auto;
+font-family: Merriweather;
+line-height: 2.5;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+article {
+  display: inline;
+}
+
+article img {
+  width: 20%;
+  padding: 0 20px 20px 0;
+  height: auto;
+  float: left;
+}
+
+blockquote  {
+  font-style: italic;
+  border-left: 2px solid #92836D;
+  padding: 0 20px 0 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.history  {
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.center-img {
+  background-image: url(/Users/joshuastronomy/Documents/TIY/week1/week-one-project/images/optimized/background-3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin: 0 -300px;
+}
+
+#room {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 4em;
+  padding-top: 75px;
+  color: white;
+}
+
+.about-flex {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+
+figure img  {
+  width: 200px;
+}
+
+figcaption  {
+font-size: 14px;
+}
+
+table {
+  width: 600px;
+}
+
+table, thead, tr, td  {
+  border: thin solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #F2EADC;
+}
+
+thead td  {
+  background-color: #F2F1E8;
+}
+
+footer  {
+  background-color: #2b2f26;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+footer span {
+  color: #FFFFFF;
+  font-family: Merriweather;
+  font-size: 16px;
+}

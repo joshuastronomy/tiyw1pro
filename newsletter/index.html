@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Bent Creek Ceramics - Newsletter</title>
+
+  <meta name="author" content="Joshua Flack">
+
+  <link rel="stylesheet" href="newsletter.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
+
+  <link rel="shortcut icon" type="image/png" href="/Users/joshuastronomy/Documents/TIY/week1/week-one-project/images/optimized/bent-creek-logo-coral.png"/>
+
+
+</head>
+
+<body>
+  <!--
+    Background: #F2F1E8
+    Text: #131511
+    Inline Link: #968772
+    Inline Link (Hover): #967343
+    Navigation Background: #FFFFFF
+    Navigation Text: #2B2F26
+    Navigation Text (Hover): #CD5D67
+    Navigation Text (Active) #968772
+    Button Background: #968772
+    Button Background (Hover): #967343
+    Button Text: #F2F1E8
+    Button Text (Hover): #FFFFFF
+    Input Border Bottom: #968772
+    Input Border Bottom (Focus): #967343 -->
+
+    <div class="navbar">
+      <div id="logo">
+      </div>
+      <ul class="nav-items">
+        <li><a href="/Users/joshuastronomy/Documents/TIY/week1/week-one-project/index.html">Home</a></li>
+        <li><a href="/Users/joshuastronomy/Documents/TIY/week1/week-one-project/about/index.html">About</a></li>
+        <li><a href="/Users/joshuastronomy/Documents/TIY/week1/week-one-project/newsletter/index.html">Newsletter</a></li>
+      </ul>
+    </div>
+  <main>
+    <div class="header">
+
+      <section class="head-1">Sign Up For Our Weekly Newsletter</section>
+      <section class="head-2">Stay up to date with events, activities, news and specials.</section>
+    </div>
+
+    <form action="#">
+
+      <div class="fname">
+        <input type="text" name="first_name" placeholder="Name" id="nameInput">
+      </div>
+      <div class="email">
+        <input type="text" name="email" placeholder="Email" id="emailInput">
+      </div>
+
+      <div class="submit_container">
+        <input type="submit" id="signupButton" value="Submit">
+      </div>
+    </form>
+  </main>
+  <script type="text/javascript">
+  var nameInput = document.getElementById('nameInput');
+  var emailInput = document.getElementById('emailInput');
+  var signupButton = document.getElementById('signupButton');
+  signupButton.addEventListener('click', function(e) {
+    var nameVal = nameInput.value;
+    var emailVal = emailInput.value;
+    if (nameVal && emailVal) {
+      alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+      nameInput.value = "";
+      emailInput.value = "";
+    } else {
+      alert('We would love for you to sign up, please provide both your name and email address.');
+    }
+  });
+</script>
+</body>
+</html>

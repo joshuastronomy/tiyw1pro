@@ -1,0 +1,174 @@
+ul {
+  padding: 0;
+}
+
+body {
+  background-color: #F2F1E8;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 55px;
+  text-align: center;
+  border-bottom: solid thin lightgrey;
+  z-index: 999;
+}
+
+#logo {
+  background-image: url(/Users/joshuastronomy/Documents/TIY/week1/week-one-project/images/optimized/bent-creek-logo.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-color: #FFFFFF;
+  float: left;
+  margin-left: 5px;
+  margin-top: 6px;
+  height: 40px;
+  width: 40px;
+}
+
+.nav-items {
+  width: auto;
+}
+
+.nav-items ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-items li {
+  padding: 0 20px 0 20px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.nav-items a {
+  color: #2B2F26;
+  transition: .5s;
+}
+
+.nav-items a:hover {
+  color: #CD5D67;
+}
+
+.nav-items a:active {
+  color: #968772;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #131511;
+  font-family: Merriweather;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.header-content p {
+  margin: 5px 0 5px 0;
+}
+
+.main-header {
+  font-size: 4em;
+  text-shadow: 2px 2px lightgrey8;
+}
+
+.sub-header {
+  font-size: 2em;
+}
+
+main {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.flex-1 {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.flex-2 {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.products-1, .products-2 {
+  background-position: top left;
+  background-size: cover;
+}
+
+main .products-1 {
+  position: relative;
+  width: 50%;
+  height: 370px;
+  margin: 5px;
+}
+
+main .products-2 {
+  position: relative;
+  width: 50%;
+  height: 240px;
+  margin: 5px;
+}
+
+#p1 {
+  background-image: url(/Users/joshuastronomy/Documents/TIY/week1/week-one-project/images/optimized/product-1.jpg);
+  width: 2010px;
+}
+
+#p2 {
+  background-image: url(/Users/joshuastronomy/Documents/TIY/week1/week-one-project/images/optimized/product-2.jpg);
+}
+
+#p3 {
+  background-image: url(/Users/joshuastronomy/Documents/TIY/week1/week-one-project/images/optimized/product-3.jpg);
+}
+
+#p4 {
+  background-image: url(/Users/joshuastronomy/Documents/TIY/week1/week-one-project/images/optimized/product-4.jpg);
+}
+
+#p5 {
+  background-image: url(/Users/joshuastronomy/Documents/TIY/week1/week-one-project/images/optimized/product-5.jpg);
+}
+
+#p6 {
+  background-image: url(/Users/joshuastronomy/Documents/TIY/week1/week-one-project/images/optimized/product-6.jpg);
+  width: 1340px;
+}
+
+#p7 {
+  background-image: url(/Users/joshuastronomy/Documents/TIY/week1/week-one-project/images/optimized/product-7.jpg);
+}
+
+.caps {
+  position: absolute;
+  bottom: 10px;
+  background-color: #2b2f26;
+  color: #131511;
+  padding: 10px;
+  width: fit-content;
+}
+
+.caps p {
+  margin: 0 auto;
+  font-family: Merriweather;
+  color: #EEEDD4;
+}
+
+footer {
+  background-color: #2b2f26;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+footer span {
+  color: #FFFFFF;
+  font-family: Merriweather;
+  font-size: 16px;
+}
